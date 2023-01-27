@@ -1,0 +1,151 @@
+.our {
+  color: black;
+  font-family: cursive;
+  margin-bottom: 0.75rem;
+  font-size: 2.5rem;
+  margin-top: 0.75rem;
+  letter-spacing: 3px;
+}
+
+.menu {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.menu-reviews {
+  background-color: white;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  border-color: rgb(231, 231, 231);
+  flex: 1 1 0%;
+  margin-bottom: 3rem;
+}
+
+#container {
+  display: grid;
+  border: 0 solid;
+  border-radius: 0.5rem;
+  margin: 0% auto;
+  max-width: 1280px;
+  padding-bottom: 0px;
+  box-sizing: border-box;    
+  text-align: center;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-top: 1.5rem;
+  
+  
+  
+}
+
+.review {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 1.5rem 2rem;
+   text-align: center;
+   
+   
+   font-size: .875rem;
+   
+   line-height: 1.5;
+  
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+  
+}
+
+.dash {
+  height: 0.25rem;
+  width: 5rem;
+  background: #49a6e9;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-reviews {
+  text-align: center;
+  box-shadow: var(--light-shadow);
+  padding: 1.5rem 2rem;
+  width: 80vw;
+  max-width: 620px;
+}
+
+.image {
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 1.5rem;
+}
+
+.author {
+  margin-bottom: 0.25rem;
+  text-transform: capitalize;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.city {
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  font-size: 0.85rem;
+  color: #6ebef7;
+}
+
+.info {
+  margin-bottom: 0.75rem;
+  color: #617d98;;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+}
+
+#random-btn {
+ 
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  color: #6ebef7;
+  background-color: #ebf7ff;
+  border-radius: 0.25rem;
+  width: 9rem;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#random-btn:hover {
+  color: rgb(9, 130, 243);
+}
+
+
+button {
+  margin: 0%;
+  width: 100%;
+  padding: 1rem;
+  border-color: transparent;
+  text-align: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer; 
+}
+
+button:hover {
+   color: rgb(9, 130, 243);
+}
